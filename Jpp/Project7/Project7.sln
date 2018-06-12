@@ -1,0 +1,13 @@
+Microsoft Visual Studio Solution File, Format Version 1.00
+Project("{66355F20-A65B-11D0-BFB5-00A0C91EBFA0}") = "Project7", "Project7.vjp", "{190AB5E0-EF54-11D3-A216-B1D86293CA48}"
+EndProject
+Global
+	GlobalSection(LocalDeployment) = postSolution
+		StartupProject = {190AB5E0-EF54-11D3-A216-B1D86293CA48}
+	EndGlobalSection
+	GlobalSection(BuildOrder) = postSolution
+		0 = {190AB5E0-EF54-11D3-A216-B1D86293CA48}
+	EndGlobalSection
+	GlobalSection(DeploymentRoot) = postSolution
+	EndGlobalSection
+EndGlobal

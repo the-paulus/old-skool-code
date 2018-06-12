@@ -1,0 +1,13 @@
+class WrapperTest
+{
+public static void main(String arg[]) throws java.io.IOExpection
+{
+double MyDblVal = new Double(4.25);
+
+String MyString = new String("6.73 abc");
+
+System.out.println("My String Value: " + MyString);
+System.out.println("My Double Value: " + MyDblVal);
+System.out.println("My Double as a string: " + MyDblVal.tostring());
+}
+}

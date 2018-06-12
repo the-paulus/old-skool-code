@@ -1,0 +1,16 @@
+class DataType
+{
+public static void main(String args[]) throws java.io.IOEcpection
+{
+double SQRoot2 = 1.414214;
+
+int i;
+lont j;
+long k;
+float n;
+
+i = 3;
+j = -2048111;
+k = 40000000021;
+
+n = (float) 1.887;

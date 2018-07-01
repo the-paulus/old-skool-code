@@ -16,3 +16,4 @@ Most of the code was written during the Windows98 era. It's still possible to in
 - appform - Scratch project.
 - BackColor - Scratch project that changes the background color of the window.
 - ButtonTest - Scratch project that changes the color of the button.
+- CloseButton - Demonstrates creating a windowed application that is able to be closed.

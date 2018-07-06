@@ -15,6 +15,7 @@ Most of the code was written during the Windows98 era. It's still possible to in
 ### C
 - DarkSideRun - Gtk application similar to the "run" dialog on Windows.
 - DarkSideWM-0.1.1-3 - X Windows Manager. (Unfinished)
+- GtkLogicBomb
 
 ### J++
 - appform - Scratch project.

@@ -1,0 +1,12 @@
+Customer ID: 3
+Customer Names: Michelle Rossouw
+Contact Details: Kerkstraat 27a Tel: (012) 111-3445
+
+Room Description: Room2 Description
+Start Date: 2004/01/01
+End Date: 2004/02/02
+Sub Total: 3840
+
+
+Discount: 10
+Total: 3830

@@ -1,0 +1,12 @@
+Customer ID: 4
+Customer Names: d bgdfb
+Contact Details: 22 df Tel: vcxv
+
+Room Description: Room1 Description
+Start Date: 2004/03/26
+End Date: 2004/03/26
+Sub Total: 0
+
+
+Discount: 5.28
+Total: -5.28

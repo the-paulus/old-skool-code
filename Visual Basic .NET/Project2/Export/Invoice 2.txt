@@ -1,0 +1,18 @@
+Customer ID: 2
+Customer Names: Chantelle Klaassens
+Contact Details: Koekoekweg 21 Tel: (011) 222-34234
+
+Room Description: Room2 Description
+Start Date: 2002/10/02
+End Date: 2002/10/10
+Sub Total: 960
+
+
+Room Description: Room3 Description
+Start Date: 2004/05/05
+End Date: 2004/05/10
+Sub Total: 900
+
+
+Discount: 5
+Total: 1855

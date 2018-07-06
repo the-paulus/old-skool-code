@@ -1,0 +1,104 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="DataSet1" targetNamespace="http://www.tempuri.org/DataSet1.xsd" xmlns:mstns="http://www.tempuri.org/DataSet1.xsd"
+	xmlns="http://www.tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="DataSet1" msdata:IsDataSet="true" msdata:Locale="en-ZA">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Booking">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BookingDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="InvoiceIssued" type="xs:boolean" minOccurs="0" />
+							<xs:element name="InvoiceTotal" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CustomerID" type="xs:int" minOccurs="0" />
+							<xs:element name="BookingID" msdata:AutoIncrement="true" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Customer">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AmountPoints" type="xs:int" minOccurs="0" />
+							<xs:element name="CAddress" type="xs:string" minOccurs="0" />
+							<xs:element name="CName" type="xs:string" minOccurs="0" />
+							<xs:element name="CSurname" type="xs:string" minOccurs="0" />
+							<xs:element name="CTel" type="xs:string" minOccurs="0" />
+							<xs:element name="CustomerID" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="ValuedCustomer" type="xs:boolean" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Room">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Description" type="xs:string" minOccurs="0" />
+							<xs:element name="Furnished" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Image" type="xs:string" minOccurs="0" />
+							<xs:element name="RateperNight" type="xs:int" minOccurs="0" />
+							<xs:element name="RoomID" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="RoomTypeID" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="RoomType">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="NumberBeds" type="xs:int" minOccurs="0" />
+							<xs:element name="RoomTypeID" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="TypeDescription" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="BookingRoomperRoom">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BookingID" type="xs:int" minOccurs="0" />
+							<xs:element name="EndDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="RoomID" type="xs:int" minOccurs="0" />
+							<xs:element name="StartDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CustomerID" msdata:AutoIncrement="true" type="xs:int" minOccurs="0" />
+							<xs:element name="CName" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="BookingRoom">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BookingID" type="xs:int" minOccurs="0" />
+							<xs:element name="EndDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="RoomID" type="xs:int" minOccurs="0" />
+							<xs:element name="StartDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CustomerID" msdata:AutoIncrement="true" type="xs:int" minOccurs="0" />
+							<xs:element name="CName" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Booking" />
+			<xs:field xpath="mstns:BookingID" />
+		</xs:unique>
+		<xs:unique name="Customer_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Customer" />
+			<xs:field xpath="mstns:CustomerID" />
+		</xs:unique>
+		<xs:unique name="Room_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Room" />
+			<xs:field xpath="mstns:RoomID" />
+		</xs:unique>
+		<xs:unique name="RoomType_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:RoomType" />
+			<xs:field xpath="mstns:RoomTypeID" />
+		</xs:unique>
+		<xs:keyref name="RoomBookingRoom" refer="mstns:Room_Constraint1">
+			<xs:selector xpath=".//mstns:BookingRoom" />
+			<xs:field xpath="mstns:RoomID" />
+		</xs:keyref>
+		<xs:keyref name="CustomerBooking" refer="Customer_Constraint1">
+			<xs:selector xpath=".//mstns:Booking" />
+			<xs:field xpath="mstns:CustomerID" />
+		</xs:keyref>
+	</xs:element>
+</xs:schema>

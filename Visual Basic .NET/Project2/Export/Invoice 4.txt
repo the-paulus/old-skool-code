@@ -1,0 +1,12 @@
+Customer ID: 1
+Customer Names: Pieter van der Merwe
+Contact Details: Strandweg 37 Tel: (021) 222-3342
+
+Room Description: Room3 Description
+Start Date: 2004/02/02
+End Date: 2004/03/03
+Sub Total: 5400
+
+
+Discount: 0
+Total: 5400

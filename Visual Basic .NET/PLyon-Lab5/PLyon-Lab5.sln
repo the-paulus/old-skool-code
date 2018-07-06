@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PLyon-Lab5-WindowsApplication", "PLyon-Lab5-WindowsApplication\PLyon-Lab5-WindowsApplication.vbproj", "{BC83D765-2A58-4B34-AA37-8EB1EA196689}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "plyon-applib", "plyon-applib\plyon-applib.vbproj", "{46464F04-FA03-452B-B3C8-D77E47A7DAD0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "plyon-applibtest", "plyon-applibtest\plyon-applibtest.vbproj", "{9C575838-8262-4790-AC25-97C75363A14D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BC83D765-2A58-4B34-AA37-8EB1EA196689}.Debug.ActiveCfg = Debug|.NET
+		{BC83D765-2A58-4B34-AA37-8EB1EA196689}.Debug.Build.0 = Debug|.NET
+		{BC83D765-2A58-4B34-AA37-8EB1EA196689}.Release.ActiveCfg = Release|.NET
+		{BC83D765-2A58-4B34-AA37-8EB1EA196689}.Release.Build.0 = Release|.NET
+		{46464F04-FA03-452B-B3C8-D77E47A7DAD0}.Debug.ActiveCfg = Debug|.NET
+		{46464F04-FA03-452B-B3C8-D77E47A7DAD0}.Debug.Build.0 = Debug|.NET
+		{46464F04-FA03-452B-B3C8-D77E47A7DAD0}.Release.ActiveCfg = Release|.NET
+		{46464F04-FA03-452B-B3C8-D77E47A7DAD0}.Release.Build.0 = Release|.NET
+		{9C575838-8262-4790-AC25-97C75363A14D}.Debug.ActiveCfg = Debug|.NET
+		{9C575838-8262-4790-AC25-97C75363A14D}.Debug.Build.0 = Debug|.NET
+		{9C575838-8262-4790-AC25-97C75363A14D}.Release.ActiveCfg = Release|.NET
+		{9C575838-8262-4790-AC25-97C75363A14D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

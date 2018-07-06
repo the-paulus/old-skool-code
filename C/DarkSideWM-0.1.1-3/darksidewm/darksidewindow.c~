@@ -1,0 +1,172 @@
+/***************************************************************************
+                          darksidewindow.c  -  description
+                             -------------------
+    begin                : Fri Jul 21 2000
+    copyright            : (C) 2000 by Paul Lyon
+    email                : paulus@linuxstart.com
+ ***************************************************************************/
+
+/***************************************************************************
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ ***************************************************************************/
+
+ #include <darksidewindow.h>
+
+ void AdjustWindow(Window win)
+ {
+ 		DarkSideWindow *new_window;
+ 		XWindowAttributes win_attr;
+ 		XSetWindowAttributes set_attr;
+ 		char *name;
+ 		XWMHints hints;
+ 		Window trans_window;
+ 		
+ 		XGetWindowAttributes(CoreWM.display, win, &win_attr);
+  	fprintf(CoreWM.log, "\nAdjustWindow(): Got Window Attributes from argument.");
+  	if (!win_attr.override_redirect)
+    {
+			fprintf(CoreWM.log, "\nAdjustWindow(): !win_attr.override_redirect");
+      new_window = (DarkSideWindow *) malloc(sizeof(DarkSideWindow));
+      fprintf(CoreWM.log, "\nAdjustWindow(): Allocated %i for new_window", sizeof(DarkSideWindow));
+      new_window->Win = win;
+      XSetWindowBorderWidth(CoreWM.display, win, 0);
+      XGetWindowAttributes(CoreWM.display, win, &win_attr);
+      fprintf(CoreWM.log, "\nAdjustWindow(): Set Window Border Width to 0 and got Window Attributes");
+      XAddToSaveSet(CoreWM.display, win);
+			fprintf(CoreWM.log, "\nAdjustWindow(): Added to save set.");
+      XGrabServer(CoreWM.display);
+			fprintf(CoreWM.log, "\nAdjustWindow(): Grabed server.");
+      XUnmapWindow(CoreWM.display, win);
+			fprintf(CoreWM.log, "\nAdjustWindow(): Unmapped win");
+      XFetchName(CoreWM.display, win, &name);
+      fprintf(CoreWM.log, "\nAdjustWindow(): XFetchName: name = %s", name);
+      CheckApplicationProperty(new_window, name);
+			/*check_properties(new_win);*/
+      new_window->shape = GetShape(new_window->Win);
+      fprintf(CoreWM.log, "\nAdjustWindow(): Got Window shape: %i", new_window->shape);
+      new_window->Parent = AddParent(new_window, &win_attr);
+      fprintf(CoreWM.log, "\nAdjustWindow(): Added Parent");
+      new_window->BorderFrame = AddBorderFrame(new_window, new_window->Parent);
+      fprintf(CoreWM.log, "\nAdjustWindow(): Added Border Frame");
+      new_window->TitleBar = AddTitlebarWindow(new_window, new_window->Parent);
+      fprintf(CoreWM.log, "\nAdjustWindow(): Added Title Bar Window");
+      XStoreName(CoreWM.display, new_window->Parent, name);
+      fprintf(CoreWM.log, "\nAdjustWindow(): Stored %s in name", name);
+      if ((new_window->app_prop & PROP_NO_TITLE) == 0)
+      {
+				fprintf(CoreWM.log, "\nAdjustWindow(): No Title Property.");
+				XStoreName(CoreWM.display, new_window->TitleBar, name);
+				fprintf(CoreWM.log, "\nAdjustWindow(): Stored name.");
+			}
+      free(name);
+      XGetIconName(CoreWM.display, win, &name);
+			fprintf(CoreWM.log, "\nAdjustWindow(): Got icon name from win.");
+      XSetIconName(CoreWM.display, new_window->Parent, name);
+      fprintf(CoreWM.log, "\nAdjustWindow(): Set icon name.");
+      free(name);
+      fprintf(CoreWM.log, "\nAdjustWindow(): freed name");
+      if (ds_win_settings.have_max_btn)
+      {
+      	fprintf(CoreWM.log, "\nAdjustWindow(): Maxmize Button is wanted.. Creating Max Button..");
+				new_window->Max_Button = CreateButton(new_window, ds_settings.align_max_btn, ds_settings.pos_max_btn);
+			}
+      /*if (ds_win_settings.align_btn_max_height)
+      {
+				new_window->button_max_height =
+	  build_button(new_win,
+		       gl_epiwin.align_btn_max_height,
+		       gl_epiwin.pos_btn_max_height);
+      if (ds_win_setting.align_btn_max_width)
+	new_win->button_max_width = build_button(new_win,
+						 gl_epiwin.align_btn_max_width,
+						 gl_epiwin.pos_btn_max_width);*/
+
+      if (ds_win_settings.have_icon_btn)
+      {
+      	fprintf(CoreWM.log, "\nAdjustWindow(): Iconify Button is wanted.. Creating Iconify Button..");
+				new_window->Iconify_Button = CreateButton(new_window, ds_win_settings.align_icon_btn, ds_win_settings.pos_icon_btn);
+			}
+      if (ds_win_settings.have_shade_btn)
+      {
+				fprintf(CoreWM.log, "\nAdjustWindow(): Shade Button is wanted.. Creating Shade Button..");
+				new_window->Shade_Button = CreateButton(new_window, ds_win_settings.align_shade_btn, ds_win_settings.pos_shade_btn);
+			}
+      if (gl_epiwin.have_close_btn)
+      {
+				fprintf(CoreWM.log, "\nAdjustWindow(): Close Button is wanted.. Creating Close Button..");
+				new_window->Close_Button = CreateButton(new_window, ds_win_settings.align_close_btn, ds_win_settings.pos_close_btn);
+			}
+      /*if (gl_epiwin.align_btn_destroy)
+	new_win->button_destroy = build_button(new_win,
+					       gl_epiwin.align_btn_destroy,
+					       gl_epiwin.pos_btn_destroy);*/
+      AddTWL(new_window);
+      win_attr.event_mask = PropertyChangeMask | ResizeRedirectMask | StructureNotifyMask | KeyPressMask | PointerMotionMask;
+      win_attr.do_not_propagate_mask = ButtonPressMask | ButtonReleaseMask;
+      XChangeWindowAttributes(CoreWM.display, new_window->Win, CWEventMask | CWDontPropagate, &win_attr);
+      XReparentWindow(CoreWM.display, win, new_window->BorderFrame, new_window->border_size, new_win->border_size);
+      GrabShortCuts(win);
+      wmhints = XGetWMHints(CoreWM.display, win);
+      SetWindowState(new_win, "inactive");
+      if (wmhints)
+			{
+	  		if ((wmhints->flags & StateHint) && (wmhints->initial_state == IconicState))
+				{
+	    		fprintf(CoreWM.log, "\nAdjustWindow(): Window is iconified.");
+	    		IconifyWindow(new_window, 1, 0);
+	    	}
+	  	else if (win_attr.map_state == IsViewable)
+	    {
+	      if ((ds_win_settings.isSmartPlacement) && (!ds_win_settings.startFirst))
+				{
+					fprintf(CoreWM.log, "\nAdjustWindow(): smart placement.");
+					SmartPlacement(new_window);
+				}
+	      //window_group_map(new_win);
+				fprintf(CoreWM.log, "\nAdjustWindow(): Set Window State \"inactive.\");
+	      SetWindowState(new_window, "inactive");
+	      fprintf(CoreWM.log, "\nAdjustWindow(): CatchWindowMouse.");
+	      CatchWindowMouse();
+	    }
+		}
+  	else if (win_attr.map_state == IsViewable)
+		{
+	  	if ((ds_win_settings.isSmartPlacement) && (!ds_win_settings.startFirst))
+	    	placement_smart(new_win);
+	  	//window_group_map(new_win);
+			fprintf(CoreWM.log, "\nAdjustWindow(): Change windowstate to inactive.");
+	  	SetWinsowState(new_window, "inactive");
+	  	fprintf(CoreWM.log, "\nAdjustWindow(): CatchWindowMouse.");
+	  	CatchWindowMouse();
+		}
+  	if (XGetTransientForHint(CoreWM.display, new_window->Win, &trans_win))
+		{
+	  	if (trans_win != CoreWM.root)
+	  	{
+	  		fprintf(CoreWM.log, "\nAdjustWindow(): Requested Mapping..");
+	    	MapRequest(tran_win);
+	  	}
+		}
+			fprintf(CoreWM.log, "\nAdjustWindow(): XUngrabServer...");
+    	XUngrabServer(CoreWM.display);
+			fprintf(CoreWM.log, "\nAdjustWindow(): XSync Display (1).");
+    	XSync(CoreWM.display, 1);
+    	return(new_window);
+  	}
+  	else
+    	return(NULL);
+}
+
+Window AddParent(DarkSideWindow *win, XWindowAttributes *win_attr)
+{
+	Window win_temp;
+	XSetWindowAttributes set_attr;
+	int width;
+	int height;
+	
+	if(win->app_prop & NO_TITLE)

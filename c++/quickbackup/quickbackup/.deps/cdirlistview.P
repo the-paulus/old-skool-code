@@ -1,0 +1,87 @@
+cdirlistview.o: cdirlistview.cpp cdirlistview.h cdirectorynode.h \
+ /usr/include/qt/qlistview.h /usr/include/qt/qscrollview.h \
+ /usr/include/qt/qframe.h /usr/include/qt/qwidget.h \
+ /usr/include/qt/qwindowdefs.h /usr/include/qt/qobjectdefs.h \
+ /usr/include/qt/qglobal.h /usr/include/qt/qobject.h \
+ /usr/include/qt/qstring.h /usr/include/qt/qarray.h \
+ /usr/include/qt/qgarray.h /usr/include/qt/qshared.h \
+ /usr/include/qt/qgeneric.h /usr/include/string.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h \
+ /usr/lib/gcc-lib/i586-mandrake-linux/2.95.3/include/stddef.h \
+ /usr/include/qt/qevent.h /usr/include/qt/qrect.h \
+ /usr/include/qt/qsize.h /usr/include/qt/qpoint.h \
+ /usr/include/qt/qpaintdevice.h /usr/include/qt/qpalette.h \
+ /usr/include/qt/qcolor.h /usr/include/qt/qcursor.h \
+ /usr/include/qt/qfont.h /usr/include/qt/qfontmetrics.h \
+ /usr/include/qt/qfontinfo.h /usr/include/qt/qscrollbar.h \
+ /usr/include/qt/qrangecontrol.h /usr/include/qt/qdrawutil.h \
+ /usr/include/qt/qpainter.h /usr/include/qt/qregion.h \
+ /usr/include/qt/qpen.h /usr/include/qt/qbrush.h \
+ /usr/include/qt/qpointarray.h /usr/include/qt/qwmatrix.h \
+ /usr/include/qt/qfile.h /usr/include/qt/qiodevice.h \
+ /usr/include/stdio.h \
+ /usr/lib/gcc-lib/i586-mandrake-linux/2.95.3/include/stdarg.h \
+ /usr/include/bits/types.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/bits/stdio_lim.h \
+ /usr/include/qt/qdir.h /usr/include/qt/qstrlist.h \
+ /usr/include/qt/qlist.h /usr/include/qt/qglist.h \
+ /usr/include/qt/qcollection.h /usr/include/qt/qdatastream.h \
+ /usr/include/qt/qfileinfo.h /usr/include/qt/qdatetime.h
+cdirlistview.cpp :
+cdirlistview.h :
+cdirectorynode.h :
+/usr/include/qt/qlistview.h :
+/usr/include/qt/qscrollview.h :
+/usr/include/qt/qframe.h :
+/usr/include/qt/qwidget.h :
+/usr/include/qt/qwindowdefs.h :
+/usr/include/qt/qobjectdefs.h :
+/usr/include/qt/qglobal.h :
+/usr/include/qt/qobject.h :
+/usr/include/qt/qstring.h :
+/usr/include/qt/qarray.h :
+/usr/include/qt/qgarray.h :
+/usr/include/qt/qshared.h :
+/usr/include/qt/qgeneric.h :
+/usr/include/string.h :
+/usr/include/features.h :
+/usr/include/sys/cdefs.h :
+/usr/include/gnu/stubs.h :
+/usr/lib/gcc-lib/i586-mandrake-linux/2.95.3/include/stddef.h :
+/usr/include/qt/qevent.h :
+/usr/include/qt/qrect.h :
+/usr/include/qt/qsize.h :
+/usr/include/qt/qpoint.h :
+/usr/include/qt/qpaintdevice.h :
+/usr/include/qt/qpalette.h :
+/usr/include/qt/qcolor.h :
+/usr/include/qt/qcursor.h :
+/usr/include/qt/qfont.h :
+/usr/include/qt/qfontmetrics.h :
+/usr/include/qt/qfontinfo.h :
+/usr/include/qt/qscrollbar.h :
+/usr/include/qt/qrangecontrol.h :
+/usr/include/qt/qdrawutil.h :
+/usr/include/qt/qpainter.h :
+/usr/include/qt/qregion.h :
+/usr/include/qt/qpen.h :
+/usr/include/qt/qbrush.h :
+/usr/include/qt/qpointarray.h :
+/usr/include/qt/qwmatrix.h :
+/usr/include/qt/qfile.h :
+/usr/include/qt/qiodevice.h :
+/usr/include/stdio.h :
+/usr/lib/gcc-lib/i586-mandrake-linux/2.95.3/include/stdarg.h :
+/usr/include/bits/types.h :
+/usr/include/libio.h :
+/usr/include/_G_config.h :
+/usr/include/bits/stdio_lim.h :
+/usr/include/qt/qdir.h :
+/usr/include/qt/qstrlist.h :
+/usr/include/qt/qlist.h :
+/usr/include/qt/qglist.h :
+/usr/include/qt/qcollection.h :
+/usr/include/qt/qdatastream.h :
+/usr/include/qt/qfileinfo.h :
+/usr/include/qt/qdatetime.h :

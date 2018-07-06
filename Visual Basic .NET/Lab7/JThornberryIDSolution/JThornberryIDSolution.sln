@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ApptLib", "ApptLib\ApptLib.vbproj", "{30AA4621-F10A-45A1-803C-6485999A2304}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ApptLibTest", "ApptLibTest\ApptLibTest.vbproj", "{2FF88E28-63F0-4A8E-AFF2-74BF092A50F6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "JThornberryIDWinProject", "JThornberryIDWinProject\JThornberryIDWinProject.vbproj", "{D6C542F3-2189-42F7-96AA-37D7FC973352}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{30AA4621-F10A-45A1-803C-6485999A2304}.Debug.ActiveCfg = Debug|.NET
+		{30AA4621-F10A-45A1-803C-6485999A2304}.Debug.Build.0 = Debug|.NET
+		{30AA4621-F10A-45A1-803C-6485999A2304}.Release.ActiveCfg = Release|.NET
+		{30AA4621-F10A-45A1-803C-6485999A2304}.Release.Build.0 = Release|.NET
+		{2FF88E28-63F0-4A8E-AFF2-74BF092A50F6}.Debug.ActiveCfg = Debug|.NET
+		{2FF88E28-63F0-4A8E-AFF2-74BF092A50F6}.Debug.Build.0 = Debug|.NET
+		{2FF88E28-63F0-4A8E-AFF2-74BF092A50F6}.Release.ActiveCfg = Release|.NET
+		{2FF88E28-63F0-4A8E-AFF2-74BF092A50F6}.Release.Build.0 = Release|.NET
+		{D6C542F3-2189-42F7-96AA-37D7FC973352}.Debug.ActiveCfg = Debug|.NET
+		{D6C542F3-2189-42F7-96AA-37D7FC973352}.Debug.Build.0 = Debug|.NET
+		{D6C542F3-2189-42F7-96AA-37D7FC973352}.Release.ActiveCfg = Release|.NET
+		{D6C542F3-2189-42F7-96AA-37D7FC973352}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

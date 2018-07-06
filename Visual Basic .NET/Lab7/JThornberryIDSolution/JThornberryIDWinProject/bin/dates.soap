@@ -1,0 +1,100 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:ImportantDateCollection id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<CollectionBase_x002B_list href="#ref-3"/>
+</a1:ImportantDateCollection>
+<a2:ArrayList id="ref-3" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-4"/>
+<_size>13</_size>
+<_version>13</_version>
+</a2:ArrayList>
+<SOAP-ENC:Array id="ref-4" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item href="#ref-5"/>
+<item href="#ref-6"/>
+<item href="#ref-7"/>
+<item href="#ref-8"/>
+<item href="#ref-9"/>
+<item href="#ref-10"/>
+<item href="#ref-11"/>
+<item href="#ref-12"/>
+<item href="#ref-13"/>
+<item href="#ref-14"/>
+<item href="#ref-15"/>
+<item href="#ref-16"/>
+<item href="#ref-17"/>
+</SOAP-ENC:Array>
+<a1:ImportantDate id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<mStart>2004-05-16T00:00:00.0000000-05:00</mStart>
+<mReason id="ref-18">Test</mReason>
+<mrepeatsAnnually>false</mrepeatsAnnually>
+</a1:ImportantDate>
+<a1:ImportantDate id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<mStart>2004-05-17T00:00:00.0000000-05:00</mStart>
+<mReason id="ref-19">Test</mReason>
+<mrepeatsAnnually>false</mrepeatsAnnually>
+</a1:ImportantDate>
+<a1:ImportantDate id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<mStart>2004-05-18T00:00:00.0000000-05:00</mStart>
+<mReason id="ref-20">Test</mReason>
+<mrepeatsAnnually>false</mrepeatsAnnually>
+</a1:ImportantDate>
+<a1:ImportantDate id="ref-8" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<mStart>2004-05-19T00:00:00.0000000-05:00</mStart>
+<mReason id="ref-21">Test</mReason>
+<mrepeatsAnnually>false</mrepeatsAnnually>
+</a1:ImportantDate>
+<a1:ImportantDate id="ref-9" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<mStart>2004-05-20T00:00:00.0000000-05:00</mStart>
+<mReason id="ref-22">Test</mReason>
+<mrepeatsAnnually>true</mrepeatsAnnually>
+</a1:ImportantDate>
+<a1:Appointment id="ref-10" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<sContact id="ref-23">Me</sContact>
+<sLocation id="ref-24">Here</sLocation>
+<sNotes id="ref-25"></sNotes>
+<sDuration>P0Y0M0DT3H0M0S</sDuration>
+<ImportantDate_x002B_mStart>2004-05-21T00:00:00.0000000-05:00</ImportantDate_x002B_mStart>
+<ImportantDate_x002B_mReason id="ref-26">None</ImportantDate_x002B_mReason>
+<ImportantDate_x002B_mrepeatsAnnually>false</ImportantDate_x002B_mrepeatsAnnually>
+</a1:Appointment>
+<a1:ImportantDate id="ref-11" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<mStart>2004-05-24T00:00:00.0000000-05:00</mStart>
+<mReason id="ref-27">OSM Comprehensive Final</mReason>
+<mrepeatsAnnually>false</mrepeatsAnnually>
+</a1:ImportantDate>
+<a1:ImportantDate id="ref-12" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<mStart>2004-05-24T00:00:00.0000000-05:00</mStart>
+<mReason id="ref-28">Last Day of School</mReason>
+<mrepeatsAnnually>true</mrepeatsAnnually>
+</a1:ImportantDate>
+<a1:ImportantDate id="ref-13" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<mStart>2004-05-27T00:00:00.0000000-05:00</mStart>
+<mReason id="ref-29">Some Important Date</mReason>
+<mrepeatsAnnually>true</mrepeatsAnnually>
+</a1:ImportantDate>
+<a1:ImportantDate id="ref-14" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<mStart>2004-05-30T00:00:00.0000000-05:00</mStart>
+<mReason id="ref-30">Another important date</mReason>
+<mrepeatsAnnually>false</mrepeatsAnnually>
+</a1:ImportantDate>
+<a1:ImportantDate id="ref-15" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<mStart>2004-08-27T00:00:00.0000000-05:00</mStart>
+<mReason id="ref-31">Nadine&#39;s Birthday</mReason>
+<mrepeatsAnnually>true</mrepeatsAnnually>
+</a1:ImportantDate>
+<a1:Appointment id="ref-16" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<sContact id="ref-32">Poopie</sContact>
+<sLocation id="ref-33">Toilet</sLocation>
+<sNotes id="ref-34"></sNotes>
+<sDuration>P0Y0M0DT5H20M0S</sDuration>
+<ImportantDate_x002B_mStart>2004-06-08T00:00:00.0000000-05:00</ImportantDate_x002B_mStart>
+<ImportantDate_x002B_mReason id="ref-35">Dirreaha</ImportantDate_x002B_mReason>
+<ImportantDate_x002B_mrepeatsAnnually>false</ImportantDate_x002B_mrepeatsAnnually>
+</a1:Appointment>
+<a1:ImportantDate id="ref-17" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<mStart>1753-01-01T00:00:00.0000000-06:00</mStart>
+<mReason id="ref-36">A Grandma was Born</mReason>
+<mrepeatsAnnually>true</mrepeatsAnnually>
+</a1:ImportantDate>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

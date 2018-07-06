@@ -1,0 +1,98 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:ContactCollection id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<CollectionBase_x002B_list href="#ref-3"/>
+</a1:ContactCollection>
+<a2:ArrayList id="ref-3" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-4"/>
+<_size>6</_size>
+<_version>39</_version>
+</a2:ArrayList>
+<SOAP-ENC:Array id="ref-4" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item href="#ref-5"/>
+<item href="#ref-6"/>
+<item href="#ref-7"/>
+<item href="#ref-8"/>
+<item href="#ref-9"/>
+<item href="#ref-10"/>
+</SOAP-ENC:Array>
+<a1:Contact id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<sLName id="ref-11">Eickmeyer</sLName>
+<sFName id="ref-12">Steve</sFName>
+<sEmail id="ref-13">email</sEmail>
+<sAddress id="ref-14">address</sAddress>
+<sCity id="ref-15">city</sCity>
+<sState id="ref-16">ST</sState>
+<sZip id="ref-17">53051</sZip>
+<sHPh id="ref-18">home</sHPh>
+<sWPh id="ref-19">work</sWPh>
+<sCPh id="ref-20">cell</sCPh>
+<sNotes id="ref-21">(no notes)</sNotes>
+</a1:Contact>
+<a1:Contact id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<sLName id="ref-22">Eickmeyer</sLName>
+<sFName id="ref-23">Steve</sFName>
+<sEmail id="ref-24">email</sEmail>
+<sAddress id="ref-25">address</sAddress>
+<sCity id="ref-26">city</sCity>
+<sState id="ref-27">ST</sState>
+<sZip id="ref-28">53051</sZip>
+<sHPh id="ref-29">home</sHPh>
+<sWPh id="ref-30">work</sWPh>
+<sCPh id="ref-31">cell</sCPh>
+<sNotes id="ref-32">(no notes)</sNotes>
+</a1:Contact>
+<a1:Contact id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<sLName id="ref-33">Losiniecki</sLName>
+<sFName id="ref-34">RJ</sFName>
+<sEmail id="ref-35">email</sEmail>
+<sAddress id="ref-36">address</sAddress>
+<sCity id="ref-37">city</sCity>
+<sState id="ref-38">ST</sState>
+<sZip id="ref-39">53051</sZip>
+<sHPh id="ref-40">home</sHPh>
+<sWPh id="ref-41">work</sWPh>
+<sCPh id="ref-42">cell</sCPh>
+<sNotes href="#ref-21"/>
+</a1:Contact>
+<a1:Contact id="ref-8" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<sLName id="ref-43">Teacher</sLName>
+<sFName id="ref-44">The</sFName>
+<sEmail id="ref-45">email</sEmail>
+<sAddress id="ref-46">address</sAddress>
+<sCity id="ref-47">city</sCity>
+<sState id="ref-48">ST</sState>
+<sZip id="ref-49">53051</sZip>
+<sHPh id="ref-50">home</sHPh>
+<sWPh id="ref-51">work</sWPh>
+<sCPh id="ref-52">cell</sCPh>
+<sNotes href="#ref-21"/>
+</a1:Contact>
+<a1:Contact id="ref-9" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<sLName id="ref-53">Thornberry</sLName>
+<sFName id="ref-54">Jacob</sFName>
+<sEmail id="ref-55">jakertberry@yahoo.com</sEmail>
+<sAddress id="ref-56">Address</sAddress>
+<sCity id="ref-57">City</sCity>
+<sState id="ref-58">ST</sState>
+<sZip id="ref-59">53051</sZip>
+<sHPh id="ref-60">home</sHPh>
+<sWPh id="ref-61">work</sWPh>
+<sCPh id="ref-62">cell</sCPh>
+<sNotes id="ref-63">(no notes)</sNotes>
+</a1:Contact>
+<a1:Contact id="ref-10" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ApptLib/ApptLib%2C%20Version%3D1.0.1598.23806%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<sLName id="ref-64">Zrinsky</sLName>
+<sFName id="ref-65">Nadine</sFName>
+<sEmail id="ref-66">peaches827@yahoo.com</sEmail>
+<sAddress id="ref-67">Blah</sAddress>
+<sCity id="ref-68">Menomonee Falls</sCity>
+<sState id="ref-69">WI</sState>
+<sZip id="ref-70">53051</sZip>
+<sHPh id="ref-71">262-252-5947</sHPh>
+<sWPh id="ref-72">work</sWPh>
+<sCPh id="ref-73">414-331-1584</sCPh>
+<sNotes id="ref-74">(no notes)</sNotes>
+</a1:Contact>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

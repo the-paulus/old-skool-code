@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MyFirstConsolProg", "MyFirstConsolProg\MyFirstConsolProg.vbproj", "{8D9A2D6B-8663-4AF8-9EE1-C1CFE8800FA9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DistanceConverstion", "DistanceConverstion\DistanceConverstion.vbproj", "{331AA38C-25BA-42CB-8ABC-9A5D4CC26101}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8D9A2D6B-8663-4AF8-9EE1-C1CFE8800FA9}.Debug.ActiveCfg = Debug|.NET
+		{8D9A2D6B-8663-4AF8-9EE1-C1CFE8800FA9}.Debug.Build.0 = Debug|.NET
+		{8D9A2D6B-8663-4AF8-9EE1-C1CFE8800FA9}.Release.ActiveCfg = Release|.NET
+		{8D9A2D6B-8663-4AF8-9EE1-C1CFE8800FA9}.Release.Build.0 = Release|.NET
+		{331AA38C-25BA-42CB-8ABC-9A5D4CC26101}.Debug.ActiveCfg = Debug|.NET
+		{331AA38C-25BA-42CB-8ABC-9A5D4CC26101}.Debug.Build.0 = Debug|.NET
+		{331AA38C-25BA-42CB-8ABC-9A5D4CC26101}.Release.ActiveCfg = Release|.NET
+		{331AA38C-25BA-42CB-8ABC-9A5D4CC26101}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

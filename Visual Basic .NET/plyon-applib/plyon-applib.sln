@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "plyon-applib", "plyon-applib.vbproj", "{D9C5A42A-F56B-4D66-B1DC-FCF5CF03C3FE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D9C5A42A-F56B-4D66-B1DC-FCF5CF03C3FE}.Debug.ActiveCfg = Debug|.NET
+		{D9C5A42A-F56B-4D66-B1DC-FCF5CF03C3FE}.Debug.Build.0 = Debug|.NET
+		{D9C5A42A-F56B-4D66-B1DC-FCF5CF03C3FE}.Release.ActiveCfg = Release|.NET
+		{D9C5A42A-F56B-4D66-B1DC-FCF5CF03C3FE}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

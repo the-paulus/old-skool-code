@@ -1,0 +1,2 @@
+elementquizdoc.moc.o: elementquizdoc.moc.cpp
+elementquizdoc.moc.cpp :

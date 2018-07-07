@@ -1,0 +1,283 @@
+<?xml version="1.0" standalone="yes"?>
+
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML/1.4">
+  <XMI.header>
+    <XMI.documentation>
+      <XMI.exporter>ru.novosoft.uml.impl.UMLRepositoryImplXMIWriter</XMI.exporter>
+    </XMI.documentation>
+  </XMI.header>
+  <XMI.content>
+    <UML:Primitive xmi.id="boolean" isRoot="false" isLeaf="true" isAbstract="false" name="boolean" isSpecification="false"></UML:Primitive>
+    <UML:Primitive xmi.id="byte" isRoot="false" isLeaf="true" isAbstract="false" name="byte" isSpecification="false"></UML:Primitive>
+    <UML:Primitive xmi.id="char" isRoot="false" isLeaf="true" isAbstract="false" name="char" isSpecification="false"></UML:Primitive>
+    <UML:Package xmi.id="CompaqPresarioX1010paulusInventoryDBProject0" isRoot="false" isLeaf="false" isAbstract="false" name="/[project" isSpecification="false"></UML:Package>
+    <UML:Package xmi.id="CompaqPresarioX1010paulusInventoryDBProject1" isRoot="false" isLeaf="false" isAbstract="false" name="net.paulslinuxbox.InventoryProject" isSpecification="false">
+      <UML:Namespace.ownedElement>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusInventoryDBProject68" isRoot="false" isLeaf="false" isAbstract="false" name="ItemDataBase" visibility="public" isSpecification="false" clientDependency="CompaqPresarioX1010paulusInventoryDBProject161 CompaqPresarioX1010paulusInventoryDBProject128 CompaqPresarioX1010paulusInventoryDBProject205 CompaqPresarioX1010paulusInventoryDBProject203 CompaqPresarioX1010paulusInventoryDBProject77" isActive="false">
+          <UML:Namespace.ownedElement>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusInventoryDBProject69" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="ItemDataBase" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject270" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusInventoryDBProject156" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="initialize" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject271" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusInventoryDBProject190" ownerScope="instance" name="connection" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="CompaqPresarioX1010paulusInventoryDBProject192"></UML:Attribute>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusInventoryDBProject188" ownerScope="classifier" name="url" visibility="package" isSpecification="false" changeability="frozen" ordering="unordered" type="CompaqPresarioX1010paulusInventoryDBProject103">
+              <UML:Attribute.initialValue>
+                <UML:Expression xmi.id="CompaqPresarioX1010paulusInventoryDBProject189" language="java" body=" &quot;jdbc:odbc:Inventory&quot;"></UML:Expression>
+              </UML:Attribute.initialValue>
+            </UML:Attribute>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusInventoryDBProject201" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="createTable" visibility="private" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject274" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusInventoryDBProject72" ownerScope="instance" name="db" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="CompaqPresarioX1010paulusInventoryDBProject120">
+              <UML:Attribute.initialValue>
+                <UML:Expression xmi.id="CompaqPresarioX1010paulusInventoryDBProject75" language="java" body=" new ArrayList()"></UML:Expression>
+              </UML:Attribute.initialValue>
+            </UML:Attribute>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusInventoryDBProject121" ownerScope="instance" name="item" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="CompaqPresarioX1010paulusInventoryDBProject34"></UML:Attribute>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusInventoryDBProject235" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="renewData" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject273" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusInventoryDBProject125" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="retreiveTable" visibility="private" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject272" kind="return" type="CompaqPresarioX1010paulusInventoryDBProject120" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusInventoryDBProject194" ownerScope="instance" name="statement" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="CompaqPresarioX1010paulusInventoryDBProject195"></UML:Attribute>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusInventoryDBProject186" ownerScope="classifier" name="driver" visibility="package" isSpecification="false" changeability="frozen" ordering="unordered" type="CompaqPresarioX1010paulusInventoryDBProject103">
+              <UML:Attribute.initialValue>
+                <UML:Expression xmi.id="CompaqPresarioX1010paulusInventoryDBProject187" language="java" body=" &quot;sun.jdbc.odbc.JdbcOdbcDriver&quot;"></UML:Expression>
+              </UML:Attribute.initialValue>
+            </UML:Attribute>
+          </UML:Namespace.ownedElement>
+          <UML:ModelElement.taggedValue>
+            <UML:TaggedValue xmi.id="CompaqPresarioX1010paulusInventoryDBProject71" name="isDefined" isSpecification="false">
+              <UML:TaggedValue.dataValue>true</UML:TaggedValue.dataValue>
+            </UML:TaggedValue>
+          </UML:ModelElement.taggedValue>
+        </UML:Class>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusInventoryDBProject34" isRoot="false" isLeaf="false" isAbstract="false" name="Item" visibility="public" isSpecification="false" clientDependency="CompaqPresarioX1010paulusInventoryDBProject55 CompaqPresarioX1010paulusInventoryDBProject117 CompaqPresarioX1010paulusInventoryDBProject184" isActive="false">
+          <UML:Namespace.ownedElement>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusInventoryDBProject43" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setSku" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject44" kind="in" type="int" name="sku" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject169" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusInventoryDBProject65" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setAmount" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject66" kind="in" type="int" name="amount" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject173" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusInventoryDBProject114" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setItemDataBase" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject115" kind="in" type="CompaqPresarioX1010paulusInventoryDBProject68" name="itemDataBase" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject175" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusInventoryDBProject38" ownerScope="instance" name="sku" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="int">
+              <UML:Attribute.initialValue>
+                <UML:Expression xmi.id="CompaqPresarioX1010paulusInventoryDBProject39" language="java" body=" 0"></UML:Expression>
+              </UML:Attribute.initialValue>
+            </UML:Attribute>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusInventoryDBProject176" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="Item" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject177" kind="in" type="int" name="s" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject178" kind="in" type="CompaqPresarioX1010paulusInventoryDBProject103" name="n" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject179" kind="in" type="int" name="a" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject180" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusInventoryDBProject57" ownerScope="instance" name="amount" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="int"></UML:Attribute>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusInventoryDBProject41" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getSku" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject168" kind="return" type="int" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusInventoryDBProject63" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getAmount" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject172" kind="return" type="int" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusInventoryDBProject35" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="Item" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject167" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusInventoryDBProject112" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getItemDataBase" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject174" kind="return" type="CompaqPresarioX1010paulusInventoryDBProject68" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusInventoryDBProject46" ownerScope="instance" name="name" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="CompaqPresarioX1010paulusInventoryDBProject103"></UML:Attribute>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusInventoryDBProject50" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getName" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject170" kind="return" type="CompaqPresarioX1010paulusInventoryDBProject103" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusInventoryDBProject52" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setName" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject53" kind="in" type="CompaqPresarioX1010paulusInventoryDBProject103" name="name" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject171" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+          </UML:Namespace.ownedElement>
+          <UML:ModelElement.taggedValue>
+            <UML:TaggedValue xmi.id="CompaqPresarioX1010paulusInventoryDBProject37" name="isDefined" isSpecification="false">
+              <UML:TaggedValue.dataValue>true</UML:TaggedValue.dataValue>
+            </UML:TaggedValue>
+          </UML:ModelElement.taggedValue>
+        </UML:Class>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusInventoryDBProject4" isRoot="false" isLeaf="false" isAbstract="false" name="DataBaseModify" visibility="public" isSpecification="false" clientDependency="CompaqPresarioX1010paulusInventoryDBProject32 CompaqPresarioX1010paulusInventoryDBProject28 CompaqPresarioX1010paulusInventoryDBProject30 CompaqPresarioX1010paulusInventoryDBProject86" isActive="false">
+          <UML:Namespace.ownedElement>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusInventoryDBProject18" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="initialize" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject80" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusInventoryDBProject20" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="insertData" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject21" kind="in" type="int" name="sku" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject22" kind="in" type="CompaqPresarioX1010paulusInventoryDBProject7" name="name" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject23" kind="in" type="int" name="amount" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject81" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusInventoryDBProject11" ownerScope="instance" name="connection" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="CompaqPresarioX1010paulusInventoryDBProject13"></UML:Attribute>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusInventoryDBProject5" ownerScope="classifier" name="driver" visibility="package" isSpecification="false" changeability="frozen" ordering="unordered" type="CompaqPresarioX1010paulusInventoryDBProject7">
+              <UML:Attribute.initialValue>
+                <UML:Expression xmi.id="CompaqPresarioX1010paulusInventoryDBProject8" language="java" body=" &quot;sun.jdbc.odbc.JdbcOdbcDriver&quot;"></UML:Expression>
+              </UML:Attribute.initialValue>
+            </UML:Attribute>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusInventoryDBProject25" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="DataBaseModify" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusInventoryDBProject82" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusInventoryDBProject9" ownerScope="classifier" name="url" visibility="package" isSpecification="false" changeability="frozen" ordering="unordered" type="CompaqPresarioX1010paulusInventoryDBProject7">
+              <UML:Attribute.initialValue>
+                <UML:Expression xmi.id="CompaqPresarioX1010paulusInventoryDBProject10" language="java" body=" &quot;jdbc:odbc:Inventory&quot;"></UML:Expression>
+              </UML:Attribute.initialValue>
+            </UML:Attribute>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusInventoryDBProject15" ownerScope="instance" name="statement" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="CompaqPresarioX1010paulusInventoryDBProject16"></UML:Attribute>
+          </UML:Namespace.ownedElement>
+          <UML:ModelElement.taggedValue>
+            <UML:TaggedValue xmi.id="CompaqPresarioX1010paulusInventoryDBProject27" name="isDefined" isSpecification="false">
+              <UML:TaggedValue.dataValue>true</UML:TaggedValue.dataValue>
+            </UML:TaggedValue>
+          </UML:ModelElement.taggedValue>
+        </UML:Class>
+      </UML:Namespace.ownedElement>
+    </UML:Package>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusInventoryDBProject117" isSpecification="false" stereotype="CompaqPresarioX1010paulusInventoryDBProject118" client="CompaqPresarioX1010paulusInventoryDBProject34" supplier="CompaqPresarioX1010paulusInventoryDBProject68"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusInventoryDBProject118" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Package xmi.id="CompaqPresarioX1010paulusInventoryDBProject119" isRoot="false" isLeaf="false" isAbstract="false" name="java.util" isSpecification="false">
+      <UML:Namespace.ownedElement>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusInventoryDBProject120" isRoot="false" isLeaf="false" isAbstract="false" name="ArrayList" visibility="public" isSpecification="false" isActive="false"></UML:Class>
+      </UML:Namespace.ownedElement>
+    </UML:Package>
+    <UML:Package xmi.id="CompaqPresarioX1010paulusInventoryDBProject12" isRoot="false" isLeaf="false" isAbstract="false" name="java.sql" isSpecification="false">
+      <UML:Namespace.ownedElement>
+        <UML:Interface xmi.id="CompaqPresarioX1010paulusInventoryDBProject13" isRoot="false" isLeaf="false" isAbstract="true" name="Connection" visibility="public" isSpecification="false" stereotype="CompaqPresarioX1010paulusInventoryDBProject14"></UML:Interface>
+        <UML:Interface xmi.id="CompaqPresarioX1010paulusInventoryDBProject16" isRoot="false" isLeaf="false" isAbstract="true" name="Statement" visibility="public" isSpecification="false" stereotype="CompaqPresarioX1010paulusInventoryDBProject17"></UML:Interface>
+      </UML:Namespace.ownedElement>
+    </UML:Package>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusInventoryDBProject128" isSpecification="false" stereotype="CompaqPresarioX1010paulusInventoryDBProject129 CompaqPresarioX1010paulusInventoryDBProject224" client="CompaqPresarioX1010paulusInventoryDBProject68" supplier="CompaqPresarioX1010paulusInventoryDBProject34"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusInventoryDBProject129" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Attribute xmi.id="CompaqPresarioX1010paulusInventoryDBProject133" name="key" isSpecification="false" type="CompaqPresarioX1010paulusInventoryDBProject92"></UML:Attribute>
+    <UML:Attribute xmi.id="CompaqPresarioX1010paulusInventoryDBProject134" name="key" isSpecification="false" type="CompaqPresarioX1010paulusInventoryDBProject92"></UML:Attribute>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusInventoryDBProject14" isRoot="false" isLeaf="false" isAbstract="false" name="interface" isSpecification="false"></UML:Stereotype>
+    <UML:Attribute xmi.id="CompaqPresarioX1010paulusInventoryDBProject151" name="key" isSpecification="false" type="CompaqPresarioX1010paulusInventoryDBProject92"></UML:Attribute>
+    <UML:Attribute xmi.id="CompaqPresarioX1010paulusInventoryDBProject152" name="key" isSpecification="false" type="CompaqPresarioX1010paulusInventoryDBProject92"></UML:Attribute>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusInventoryDBProject161" isSpecification="false" stereotype="CompaqPresarioX1010paulusInventoryDBProject162" client="CompaqPresarioX1010paulusInventoryDBProject68" supplier="CompaqPresarioX1010paulusInventoryDBProject103"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusInventoryDBProject162" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusInventoryDBProject17" isRoot="false" isLeaf="false" isAbstract="false" name="interface" isSpecification="false"></UML:Stereotype>
+    <UML:Generalization xmi.id="CompaqPresarioX1010paulusInventoryDBProject183" isSpecification="false" child="CompaqPresarioX1010paulusInventoryDBProject182" parent="CompaqPresarioX1010paulusInventoryDBProject181"></UML:Generalization>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusInventoryDBProject184" isSpecification="false" stereotype="CompaqPresarioX1010paulusInventoryDBProject185" client="CompaqPresarioX1010paulusInventoryDBProject34" supplier="CompaqPresarioX1010paulusInventoryDBProject182"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusInventoryDBProject185" isRoot="false" isLeaf="false" isAbstract="false" name="create" isSpecification="false"></UML:Stereotype>
+    <UML:Package xmi.id="CompaqPresarioX1010paulusInventoryDBProject191" isRoot="false" isLeaf="false" isAbstract="false" name="java.sql" isSpecification="false">
+      <UML:Namespace.ownedElement>
+        <UML:Interface xmi.id="CompaqPresarioX1010paulusInventoryDBProject192" isRoot="false" isLeaf="false" isAbstract="true" name="Connection" visibility="public" isSpecification="false" stereotype="CompaqPresarioX1010paulusInventoryDBProject193"></UML:Interface>
+        <UML:Interface xmi.id="CompaqPresarioX1010paulusInventoryDBProject195" isRoot="false" isLeaf="false" isAbstract="true" name="Statement" visibility="public" isSpecification="false" stereotype="CompaqPresarioX1010paulusInventoryDBProject196"></UML:Interface>
+      </UML:Namespace.ownedElement>
+    </UML:Package>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusInventoryDBProject193" isRoot="false" isLeaf="false" isAbstract="false" name="interface" isSpecification="false"></UML:Stereotype>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusInventoryDBProject196" isRoot="false" isLeaf="false" isAbstract="false" name="interface" isSpecification="false"></UML:Stereotype>
+    <UML:Package xmi.id="CompaqPresarioX1010paulusInventoryDBProject2" isRoot="false" isLeaf="false" isAbstract="false" name="net.paulslinuxbox" isSpecification="false"></UML:Package>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusInventoryDBProject203" isSpecification="false" stereotype="CompaqPresarioX1010paulusInventoryDBProject204" client="CompaqPresarioX1010paulusInventoryDBProject68" supplier="CompaqPresarioX1010paulusInventoryDBProject192"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusInventoryDBProject204" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusInventoryDBProject205" isSpecification="false" stereotype="CompaqPresarioX1010paulusInventoryDBProject206" client="CompaqPresarioX1010paulusInventoryDBProject68" supplier="CompaqPresarioX1010paulusInventoryDBProject195"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusInventoryDBProject206" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusInventoryDBProject224" isRoot="false" isLeaf="false" isAbstract="false" name="create" isSpecification="false"></UML:Stereotype>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusInventoryDBProject258" isRoot="false" isLeaf="false" isAbstract="false" name="interface" isSpecification="false"></UML:Stereotype>
+    <UML:Generalization xmi.id="CompaqPresarioX1010paulusInventoryDBProject260" isSpecification="false" child="CompaqPresarioX1010paulusInventoryDBProject259" parent="CompaqPresarioX1010paulusInventoryDBProject256"></UML:Generalization>
+    <UML:Generalization xmi.id="CompaqPresarioX1010paulusInventoryDBProject261" isSpecification="false" child="CompaqPresarioX1010paulusInventoryDBProject259" parent="CompaqPresarioX1010paulusInventoryDBProject257"></UML:Generalization>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusInventoryDBProject28" isSpecification="false" stereotype="CompaqPresarioX1010paulusInventoryDBProject29" client="CompaqPresarioX1010paulusInventoryDBProject4" supplier="CompaqPresarioX1010paulusInventoryDBProject13"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusInventoryDBProject29" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Package xmi.id="CompaqPresarioX1010paulusInventoryDBProject3" isRoot="false" isLeaf="false" isAbstract="false" name="net" isSpecification="false"></UML:Package>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusInventoryDBProject30" isSpecification="false" stereotype="CompaqPresarioX1010paulusInventoryDBProject31" client="CompaqPresarioX1010paulusInventoryDBProject4" supplier="CompaqPresarioX1010paulusInventoryDBProject7"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusInventoryDBProject31" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusInventoryDBProject32" isSpecification="false" stereotype="CompaqPresarioX1010paulusInventoryDBProject33" client="CompaqPresarioX1010paulusInventoryDBProject4" supplier="CompaqPresarioX1010paulusInventoryDBProject16"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusInventoryDBProject33" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusInventoryDBProject55" isSpecification="false" stereotype="CompaqPresarioX1010paulusInventoryDBProject56" client="CompaqPresarioX1010paulusInventoryDBProject34" supplier="CompaqPresarioX1010paulusInventoryDBProject7"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusInventoryDBProject56" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Package xmi.id="CompaqPresarioX1010paulusInventoryDBProject6" isRoot="false" isLeaf="false" isAbstract="false" name="java.lang" isSpecification="false">
+      <UML:Namespace.ownedElement>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusInventoryDBProject83" isRoot="false" isLeaf="false" isAbstract="false" name="Throwable" visibility="public" isSpecification="false" isActive="false"></UML:Class>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusInventoryDBProject7" isRoot="false" isLeaf="true" isAbstract="false" name="String" visibility="public" isSpecification="false" isActive="false"></UML:Class>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusInventoryDBProject84" isRoot="false" isLeaf="false" isAbstract="false" generalization="CompaqPresarioX1010paulusInventoryDBProject85" name="Error" visibility="public" isSpecification="false" isActive="false"></UML:Class>
+      </UML:Namespace.ownedElement>
+    </UML:Package>
+    <UML:Package xmi.id="CompaqPresarioX1010paulusInventoryDBProject73" isRoot="false" isLeaf="false" isAbstract="false" name="java.util" isSpecification="false">
+      <UML:Namespace.ownedElement>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusInventoryDBProject74" isRoot="false" isLeaf="false" isAbstract="false" name="ArrayList" visibility="public" isSpecification="false" isActive="false"></UML:Class>
+      </UML:Namespace.ownedElement>
+    </UML:Package>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusInventoryDBProject77" isSpecification="false" stereotype="CompaqPresarioX1010paulusInventoryDBProject78 CompaqPresarioX1010paulusInventoryDBProject79" client="CompaqPresarioX1010paulusInventoryDBProject68" supplier="CompaqPresarioX1010paulusInventoryDBProject74"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusInventoryDBProject78" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusInventoryDBProject79" isRoot="false" isLeaf="false" isAbstract="false" name="create" isSpecification="false"></UML:Stereotype>
+    <UML:Generalization xmi.id="CompaqPresarioX1010paulusInventoryDBProject85" isSpecification="false" child="CompaqPresarioX1010paulusInventoryDBProject84" parent="CompaqPresarioX1010paulusInventoryDBProject83"></UML:Generalization>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusInventoryDBProject86" isSpecification="false" stereotype="CompaqPresarioX1010paulusInventoryDBProject87" client="CompaqPresarioX1010paulusInventoryDBProject4" supplier="CompaqPresarioX1010paulusInventoryDBProject84"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusInventoryDBProject87" isRoot="false" isLeaf="false" isAbstract="false" name="create" isSpecification="false"></UML:Stereotype>
+    <UML:Attribute xmi.id="CompaqPresarioX1010paulusInventoryDBProject91" name="key" isSpecification="false" type="CompaqPresarioX1010paulusInventoryDBProject92"></UML:Attribute>
+    <UML:Package xmi.id="CompaqPresarioX1010paulusInventoryDBProject93" isRoot="false" isLeaf="false" isAbstract="false" name="java.lang" isSpecification="false">
+      <UML:Namespace.ownedElement>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusInventoryDBProject182" isRoot="false" isLeaf="false" isAbstract="false" generalization="CompaqPresarioX1010paulusInventoryDBProject183" name="Error" visibility="public" isSpecification="false" isActive="false"></UML:Class>
+        <UML:Interface xmi.id="CompaqPresarioX1010paulusInventoryDBProject257" isRoot="false" isLeaf="false" isAbstract="true" name="Comparable" visibility="public" isSpecification="false" stereotype="CompaqPresarioX1010paulusInventoryDBProject258"></UML:Interface>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusInventoryDBProject256" isRoot="false" isLeaf="false" isAbstract="true" name="Number" visibility="public" isSpecification="false" isActive="false"></UML:Class>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusInventoryDBProject181" isRoot="false" isLeaf="false" isAbstract="false" name="Throwable" visibility="public" isSpecification="false" isActive="false"></UML:Class>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusInventoryDBProject92" isRoot="false" isLeaf="false" isAbstract="false" name="Object" visibility="public" isSpecification="false" isActive="false"></UML:Class>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusInventoryDBProject103" isRoot="false" isLeaf="true" isAbstract="false" name="String" visibility="public" isSpecification="false" isActive="false"></UML:Class>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusInventoryDBProject259" isRoot="false" isLeaf="true" isAbstract="false" generalization="CompaqPresarioX1010paulusInventoryDBProject260 CompaqPresarioX1010paulusInventoryDBProject261" name="Integer" visibility="public" isSpecification="false" isActive="false"></UML:Class>
+      </UML:Namespace.ownedElement>
+    </UML:Package>
+    <UML:Attribute xmi.id="CompaqPresarioX1010paulusInventoryDBProject94" name="key" isSpecification="false" type="CompaqPresarioX1010paulusInventoryDBProject92"></UML:Attribute>
+    <UML:Multiplicity xmi.id="CompaqPresarioX1010paulusInventoryDBProject95">
+      <UML:Multiplicity.range>
+        <UML:MultiplicityRange xmi.id="CompaqPresarioX1010paulusInventoryDBProject96" lower="1" upper="1"></UML:MultiplicityRange>
+      </UML:Multiplicity.range>
+    </UML:Multiplicity>
+    <UML:Multiplicity xmi.id="CompaqPresarioX1010paulusInventoryDBProject99">
+      <UML:Multiplicity.range>
+        <UML:MultiplicityRange xmi.id="CompaqPresarioX1010paulusInventoryDBProject100" lower="0" upper="1"></UML:MultiplicityRange>
+      </UML:Multiplicity.range>
+    </UML:Multiplicity>
+    <UML:Primitive xmi.id="double" isRoot="false" isLeaf="true" isAbstract="false" name="double" isSpecification="false"></UML:Primitive>
+    <UML:Primitive xmi.id="float" isRoot="false" isLeaf="true" isAbstract="false" name="float" isSpecification="false"></UML:Primitive>
+    <UML:Primitive xmi.id="int" isRoot="false" isLeaf="true" isAbstract="false" name="int" isSpecification="false"></UML:Primitive>
+    <UML:Primitive xmi.id="long" isRoot="false" isLeaf="true" isAbstract="false" name="long" isSpecification="false"></UML:Primitive>
+    <UML:Primitive xmi.id="short" isRoot="false" isLeaf="true" isAbstract="false" name="short" isSpecification="false"></UML:Primitive>
+    <UML:Primitive xmi.id="void" isRoot="false" isLeaf="true" isAbstract="false" name="void" isSpecification="false"></UML:Primitive>
+  </XMI.content>
+</XMI>
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" size="1247,628" id="CompaqPresarioX1010paulusInventoryDBProject1" metadata="nsuml-1.4" initialized="true" showWireOptions="7">
+  <children xsi:type="editmodel:ClassEditModel" location="842,86" size="166,254" id="CompaqPresarioX1010paulusInventoryDBProject34" runTimeClassModel="CompaqPresarioX1010paulusInventoryDBProject63;CompaqPresarioX1010paulusInventoryDBProject112;CompaqPresarioX1010paulusInventoryDBProject52;CompaqPresarioX1010paulusInventoryDBProject41;CompaqPresarioX1010paulusInventoryDBProject57;CompaqPresarioX1010paulusInventoryDBProject38;CompaqPresarioX1010paulusInventoryDBProject46;CompaqPresarioX1010paulusInventoryDBProject35;CompaqPresarioX1010paulusInventoryDBProject176;CompaqPresarioX1010paulusInventoryDBProject65;CompaqPresarioX1010paulusInventoryDBProject50;CompaqPresarioX1010paulusInventoryDBProject43;CompaqPresarioX1010paulusInventoryDBProject114">
+    <children xsi:type="editmodel:CompartmentEditModel" size="68,48">
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusInventoryDBProject57"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusInventoryDBProject46"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusInventoryDBProject38"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,160">
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusInventoryDBProject35"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusInventoryDBProject63"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusInventoryDBProject50"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusInventoryDBProject41"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusInventoryDBProject65"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusInventoryDBProject52"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusInventoryDBProject43"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusInventoryDBProject114"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusInventoryDBProject112"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusInventoryDBProject176"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="495,87" size="141,238" id="CompaqPresarioX1010paulusInventoryDBProject68" runTimeClassModel="CompaqPresarioX1010paulusInventoryDBProject201;CompaqPresarioX1010paulusInventoryDBProject235;CompaqPresarioX1010paulusInventoryDBProject194;CompaqPresarioX1010paulusInventoryDBProject188;CompaqPresarioX1010paulusInventoryDBProject121;CompaqPresarioX1010paulusInventoryDBProject72;CompaqPresarioX1010paulusInventoryDBProject190;CompaqPresarioX1010paulusInventoryDBProject69;CompaqPresarioX1010paulusInventoryDBProject186;CompaqPresarioX1010paulusInventoryDBProject125;CompaqPresarioX1010paulusInventoryDBProject156">
+    <children xsi:type="editmodel:CompartmentEditModel" size="121,96">
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusInventoryDBProject72"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusInventoryDBProject121"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusInventoryDBProject188"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusInventoryDBProject194"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusInventoryDBProject190"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusInventoryDBProject186"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="87,96">
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusInventoryDBProject69"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusInventoryDBProject125"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusInventoryDBProject156"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusInventoryDBProject201"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusInventoryDBProject235"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showInterfaceStereotype="true" showClassStereotype="true" showPackageStereotype="true"/>
+</editmodel:ClassDiagramEditModel>

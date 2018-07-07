@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Ant build file for building the Scrip project.
+-->
+<project basedir="." default="compile" name="Inventory">
+
+    <!-- Setup the environment variables -->
+    <property name="src.dir" value="${basedir}/src"/>
+    <property name="dist.dir" value="${basedir}/lib"/>
+    <property name="build.dir" value="${basedir}/classes"/>
+    <property name="dep_cache" value="${basedir}/cache"/>
+
+    <!-- Clean build and dist -->
+    <target name="clean">
+    	<delete dir="${build.dir}"/>
+    	<delete dir="${dist.dir}"/>
+    </target>
+
+    <!-- Init directories -->
+    <target name="init">
+    	<mkdir dir="${build.dir}"/>
+    </target>
+
+    <!-- Build the class files -->
+    <target depends="init" name="compile">
+      <!-- Update dependency cache -->
+      <depend srcdir="${src.dir}"
+              destdir="${build.dir}"
+              cache="${dep_cache}"
+              closure="no"/>
+
+      <javac destdir="${build.dir}" srcdir="${src.dir}"/>
+    </target>
+
+    <!-- Create jar file(s) -->	
+    <target depends="compile" name="dist">
+      <!-- Re-create the lib directory -->
+      <delete dir="${dist.dir}"/>
+      <mkdir dir="${dist.dir}"/>
+
+      <!-- Domain jar file -->
+      <jar jarfile="${dist.dir}/inventory.jar">
+        <fileset dir="${build.dir}">
+          <include name="com/**"/>
+        </fileset>
+      </jar>
+    </target>
+    
+    <!-- Run Unit Tests -->	
+    <target name="junit">
+    
+      <junit printsummary="yes" haltonfailure="yes" >
+        <classpath>
+            <pathelement location="${dist.dir}/inventory.jar"/>
+        </classpath>
+
+        <formatter type="plain" />
+
+        <test name="com.wickidcool.inventory.InventoryItemTest" haltonfailure="no" outfile="result" >
+          <formatter type="xml" />
+        </test>
+      </junit>
+
+    </target>
+</project>

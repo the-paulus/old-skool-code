@@ -1,0 +1,407 @@
+<?xml version="1.0" standalone="yes"?>
+
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML/1.4">
+  <XMI.header>
+    <XMI.documentation>
+      <XMI.exporter>ru.novosoft.uml.impl.UMLRepositoryImplXMIWriter</XMI.exporter>
+    </XMI.documentation>
+  </XMI.header>
+  <XMI.content>
+    <UML:Primitive xmi.id="boolean" isRoot="false" isLeaf="true" isAbstract="false" name="boolean" isSpecification="false"></UML:Primitive>
+    <UML:Primitive xmi.id="byte" isRoot="false" isLeaf="true" isAbstract="false" name="byte" isSpecification="false"></UML:Primitive>
+    <UML:Primitive xmi.id="char" isRoot="false" isLeaf="true" isAbstract="false" name="char" isSpecification="false"></UML:Primitive>
+    <UML:Package xmi.id="CompaqPresarioX1010paulusPOS0" isRoot="false" isLeaf="false" isAbstract="false" name="/[project" isSpecification="false"></UML:Package>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusPOS155" isSpecification="false" stereotype="CompaqPresarioX1010paulusPOS156" client="CompaqPresarioX1010paulusPOS139" supplier="CompaqPresarioX1010paulusPOS17"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusPOS156" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Package xmi.id="CompaqPresarioX1010paulusPOS16" isRoot="false" isLeaf="false" isAbstract="false" name="java.lang" isSpecification="false">
+      <UML:Namespace.ownedElement>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusPOS17" isRoot="false" isLeaf="true" isAbstract="false" name="String" visibility="public" isSpecification="false" isActive="false"></UML:Class>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusPOS249" isRoot="false" isLeaf="false" isAbstract="false" generalization="CompaqPresarioX1010paulusPOS250" name="Error" visibility="public" isSpecification="false" isActive="false"></UML:Class>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusPOS248" isRoot="false" isLeaf="false" isAbstract="false" name="Throwable" visibility="public" isSpecification="false" isActive="false"></UML:Class>
+      </UML:Namespace.ownedElement>
+    </UML:Package>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusPOS189" isSpecification="false" stereotype="CompaqPresarioX1010paulusPOS190" client="CompaqPresarioX1010paulusPOS181" supplier="CompaqPresarioX1010paulusPOS17"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusPOS190" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusPOS205" isSpecification="false" stereotype="CompaqPresarioX1010paulusPOS206" supplier="CompaqPresarioX1010paulusPOS7"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusPOS206" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Package xmi.id="CompaqPresarioX1010paulusPOS208" isRoot="false" isLeaf="false" isAbstract="false" name="java.util" isSpecification="false">
+      <UML:Namespace.ownedElement>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusPOS209" isRoot="false" isLeaf="false" isAbstract="false" name="ArrayList" visibility="public" isSpecification="false" isActive="false"></UML:Class>
+      </UML:Namespace.ownedElement>
+    </UML:Package>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusPOS217" isSpecification="false" stereotype="CompaqPresarioX1010paulusPOS218" supplier="CompaqPresarioX1010paulusPOS209"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusPOS218" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Package xmi.id="CompaqPresarioX1010paulusPOS219" isRoot="false" isLeaf="false" isAbstract="false" name="net.paulslinuxbox.POS" isSpecification="false">
+      <UML:Namespace.ownedElement>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusPOS7" isRoot="false" isLeaf="false" isAbstract="false" name="CustomerAccount" visibility="public" isSpecification="false" clientDependency="CompaqPresarioX1010paulusPOS25" isActive="false">
+          <UML:Namespace.ownedElement>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusPOS37" ownerScope="instance" name="address" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="CompaqPresarioX1010paulusPOS17"></UML:Attribute>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS32" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getFirst_name" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS226" kind="return" type="CompaqPresarioX1010paulusPOS17" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusPOS117" ownerScope="instance" name="email" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="CompaqPresarioX1010paulusPOS17"></UML:Attribute>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS92" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getMain_phone" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS234" kind="return" type="CompaqPresarioX1010paulusPOS17" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusPOS27" ownerScope="instance" name="first_name" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="CompaqPresarioX1010paulusPOS17"></UML:Attribute>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS46" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setAddress" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS47" kind="in" type="CompaqPresarioX1010paulusPOS17" name="address" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS229" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS22" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setLast_name" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS23" kind="in" type="CompaqPresarioX1010paulusPOS17" name="last_name" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS225" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS94" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setMain_phone" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS95" kind="in" type="CompaqPresarioX1010paulusPOS17" name="main_phone" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS235" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusPOS63" ownerScope="instance" name="zip" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="int"></UML:Attribute>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS20" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getLast_name" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS224" kind="return" type="CompaqPresarioX1010paulusPOS17" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS60" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setCity" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS61" kind="in" type="CompaqPresarioX1010paulusPOS17" name="City" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS231" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS136" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setEmail" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS137" kind="in" type="CompaqPresarioX1010paulusPOS17" name="email" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS239" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS112" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getSecondary_phone" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS236" kind="return" type="CompaqPresarioX1010paulusPOS17" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS12" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setAccountID" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS13" kind="in" type="int" name="accountID" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS223" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusPOS9" ownerScope="instance" name="accountID" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="int"></UML:Attribute>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS134" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getEmail" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS238" kind="return" type="CompaqPresarioX1010paulusPOS17" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS44" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getAddress" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS228" kind="return" type="CompaqPresarioX1010paulusPOS17" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS74" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getZip" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS232" kind="return" type="int" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS10" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getAccountID" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS222" kind="return" type="int" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusPOS97" ownerScope="instance" name="secondary_phone" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="CompaqPresarioX1010paulusPOS17"></UML:Attribute>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusPOS79" ownerScope="instance" name="main_phone" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="CompaqPresarioX1010paulusPOS17"></UML:Attribute>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS114" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setSecondary_phone" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS115" kind="in" type="CompaqPresarioX1010paulusPOS17" name="secondary_phone" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS237" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS34" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setFirst_name" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS35" kind="in" type="CompaqPresarioX1010paulusPOS17" name="first_name" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS227" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS76" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setZip" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS77" kind="in" type="int" name="zip" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS233" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS58" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getCity" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS230" kind="return" type="CompaqPresarioX1010paulusPOS17" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusPOS15" ownerScope="instance" name="last_name" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="CompaqPresarioX1010paulusPOS17"></UML:Attribute>
+          </UML:Namespace.ownedElement>
+          <UML:ModelElement.taggedValue>
+            <UML:TaggedValue xmi.id="CompaqPresarioX1010paulusPOS8" name="isDefined" isSpecification="false">
+              <UML:TaggedValue.dataValue>true</UML:TaggedValue.dataValue>
+            </UML:TaggedValue>
+          </UML:ModelElement.taggedValue>
+        </UML:Class>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusPOS220" isRoot="false" isLeaf="false" isAbstract="false" name="Order" visibility="public" isSpecification="false" clientDependency="CompaqPresarioX1010paulusPOS290 CompaqPresarioX1010paulusPOS283 CompaqPresarioX1010paulusPOS286 CompaqPresarioX1010paulusPOS288" isActive="false">
+          <UML:Namespace.ownedElement>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusPOS259" ownerScope="instance" name="account" visibility="package" isSpecification="false" changeability="changeable" ordering="unordered" type="CompaqPresarioX1010paulusPOS7">
+              <UML:Attribute.initialValue>
+                <UML:Expression xmi.id="CompaqPresarioX1010paulusPOS260" language="java" body=" null"></UML:Expression>
+              </UML:Attribute.initialValue>
+            </UML:Attribute>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS265" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="Order" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS266" kind="in" type="CompaqPresarioX1010paulusPOS7" name="caccount" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS267" kind="in" type="CompaqPresarioX1010paulusPOS181" name="pay" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS268" kind="in" type="CompaqPresarioX1010paulusPOS209" name="i" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS292" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS273" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="addPayment" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS274" kind="in" type="CompaqPresarioX1010paulusPOS181" name="pay" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS294" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS270" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setCustomerAccount" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS271" kind="in" type="CompaqPresarioX1010paulusPOS7" name="caccount" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS293" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS281" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getItems" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS297" kind="return" type="CompaqPresarioX1010paulusPOS209" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusPOS263" ownerScope="instance" name="items" visibility="package" isSpecification="false" changeability="changeable" ordering="unordered" type="CompaqPresarioX1010paulusPOS209">
+              <UML:Attribute.initialValue>
+                <UML:Expression xmi.id="CompaqPresarioX1010paulusPOS264" language="java" body=" new ArrayList()"></UML:Expression>
+              </UML:Attribute.initialValue>
+            </UML:Attribute>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS279" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getPayments" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS296" kind="return" type="CompaqPresarioX1010paulusPOS209" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS276" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="addItem" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS277" kind="in" type="CompaqPresarioX1010paulusPOS139" name="it" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS295" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusPOS261" ownerScope="instance" name="payments" visibility="package" isSpecification="false" changeability="changeable" ordering="unordered" type="CompaqPresarioX1010paulusPOS209">
+              <UML:Attribute.initialValue>
+                <UML:Expression xmi.id="CompaqPresarioX1010paulusPOS262" language="java" body=" new ArrayList()"></UML:Expression>
+              </UML:Attribute.initialValue>
+            </UML:Attribute>
+          </UML:Namespace.ownedElement>
+          <UML:ModelElement.taggedValue>
+            <UML:TaggedValue xmi.id="CompaqPresarioX1010paulusPOS221" name="isDefined" isSpecification="false">
+              <UML:TaggedValue.dataValue>true</UML:TaggedValue.dataValue>
+            </UML:TaggedValue>
+          </UML:ModelElement.taggedValue>
+        </UML:Class>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusPOS181" isRoot="false" isLeaf="false" isAbstract="false" name="Payment" visibility="public" isSpecification="false" clientDependency="CompaqPresarioX1010paulusPOS189 CompaqPresarioX1010paulusPOS257" isActive="false">
+          <UML:Namespace.ownedElement>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS196" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setAmount" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS197" kind="in" type="double" name="amount" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS256" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS186" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setType" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS187" kind="in" type="CompaqPresarioX1010paulusPOS17" name="type" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS254" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS184" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getType" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS253" kind="return" type="CompaqPresarioX1010paulusPOS17" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusPOS183" ownerScope="instance" name="type" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="CompaqPresarioX1010paulusPOS17"></UML:Attribute>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusPOS191" ownerScope="instance" name="amount" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="double"></UML:Attribute>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS194" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getAmount" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS255" kind="return" type="double" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+          </UML:Namespace.ownedElement>
+          <UML:ModelElement.taggedValue>
+            <UML:TaggedValue xmi.id="CompaqPresarioX1010paulusPOS182" name="isDefined" isSpecification="false">
+              <UML:TaggedValue.dataValue>true</UML:TaggedValue.dataValue>
+            </UML:TaggedValue>
+          </UML:ModelElement.taggedValue>
+        </UML:Class>
+        <UML:Class xmi.id="CompaqPresarioX1010paulusPOS139" isRoot="false" isLeaf="false" isAbstract="false" name="Item" visibility="public" isSpecification="false" clientDependency="CompaqPresarioX1010paulusPOS155" isActive="false">
+          <UML:Namespace.ownedElement>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS174" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setPrice" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS375" kind="in" type="double" name="price" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS416" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS142" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getSku" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS405" kind="return" type="int" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS162" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getCost" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS409" kind="return" type="double" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusPOS167" ownerScope="instance" name="price" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="double"></UML:Attribute>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS164" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setCost" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS165" kind="in" type="double" name="cost" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS410" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS144" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setSku" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS145" kind="in" type="int" name="sku" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS406" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS150" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getDescription" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS407" kind="return" type="pylonpaulusPaulusPOS299" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS152" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setDescription" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="CompaqPresarioX1010paulusPOS153" kind="in" type="pylonpaulusPaulusPOS299" name="description" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS408" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="CompaqPresarioX1010paulusPOS176" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getPrice" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS415" kind="return" type="double" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusPOS141" ownerScope="instance" name="sku" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="int"></UML:Attribute>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusPOS147" ownerScope="instance" name="description" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="pylonpaulusPaulusPOS299"></UML:Attribute>
+            <UML:Attribute xmi.id="CompaqPresarioX1010paulusPOS157" ownerScope="instance" name="cost" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="double"></UML:Attribute>
+            <UML:Attribute xmi.id="pylonpaulusPaulusPOS324" ownerScope="instance" name="quantity" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="int"></UML:Attribute>
+            <UML:Operation xmi.id="pylonpaulusPaulusPOS333" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getQuantity" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS411" kind="return" type="int" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="pylonpaulusPaulusPOS335" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setQuantity" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS336" kind="in" type="int" name="quantity" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS412" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="pylonpaulusPaulusPOS348" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="Item" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS349" kind="in" type="int" name="input_sku" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS350" kind="in" type="pylonpaulusPaulusPOS299" name="input_description" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS351" kind="in" type="double" name="input_cost" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS352" kind="in" type="double" name="input_price" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS353" kind="in" type="int" name="input_quantity" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS413" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="pylonpaulusPaulusPOS366" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="Item" visibility="package" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS367" kind="in" type="CompaqPresarioX1010paulusPOS139" name="input_item" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS414" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+          </UML:Namespace.ownedElement>
+          <UML:ModelElement.taggedValue>
+            <UML:TaggedValue xmi.id="CompaqPresarioX1010paulusPOS140" name="isDefined" isSpecification="false">
+              <UML:TaggedValue.dataValue>true</UML:TaggedValue.dataValue>
+            </UML:TaggedValue>
+          </UML:ModelElement.taggedValue>
+        </UML:Class>
+        <UML:Class xmi.id="pylonpaulusPaulusPOS417" isRoot="false" isLeaf="false" isAbstract="false" name="CustomerOrder" visibility="public" isSpecification="false" clientDependency="pylonpaulusPaulusPOS425" isActive="false">
+          <UML:Namespace.ownedElement>
+            <UML:Attribute xmi.id="pylonpaulusPaulusPOS419" ownerScope="instance" name="order_type" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="pylonpaulusPaulusPOS299"></UML:Attribute>
+            <UML:Operation xmi.id="pylonpaulusPaulusPOS420" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getOrder_type" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS436" kind="return" type="pylonpaulusPaulusPOS299" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="pylonpaulusPaulusPOS422" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setOrder_type" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS423" kind="in" type="pylonpaulusPaulusPOS299" name="order_type" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS437" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="pylonpaulusPaulusPOS427" ownerScope="instance" name="order_number" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="int"></UML:Attribute>
+            <UML:Operation xmi.id="pylonpaulusPaulusPOS430" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getOrder_number" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS438" kind="return" type="int" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="pylonpaulusPaulusPOS432" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setOrder_number" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS433" kind="in" type="int" name="order_number" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS439" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Attribute xmi.id="pylonpaulusPaulusPOS435" ownerScope="instance" name="order" visibility="private" isSpecification="false" changeability="changeable" ordering="unordered" type="pylonpaulusPaulusPOS417"></UML:Attribute>
+            <UML:Operation xmi.id="pylonpaulusPaulusPOS440" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="getOrder" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS441" kind="return" type="pylonpaulusPaulusPOS417" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+            <UML:Operation xmi.id="pylonpaulusPaulusPOS442" ownerScope="instance" concurrency="concurrent" isRoot="false" isLeaf="false" isAbstract="false" isQuery="false" name="setOrder" visibility="public" isSpecification="false">
+              <UML:BehavioralFeature.parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS443" kind="in" type="pylonpaulusPaulusPOS417" name="order" isSpecification="false"></UML:Parameter>
+                <UML:Parameter xmi.id="pylonpaulusPaulusPOS444" kind="return" type="void" isSpecification="false"></UML:Parameter>
+              </UML:BehavioralFeature.parameter>
+            </UML:Operation>
+          </UML:Namespace.ownedElement>
+          <UML:ModelElement.taggedValue>
+            <UML:TaggedValue xmi.id="pylonpaulusPaulusPOS418" name="isDefined" isSpecification="false">
+              <UML:TaggedValue.dataValue>true</UML:TaggedValue.dataValue>
+            </UML:TaggedValue>
+          </UML:ModelElement.taggedValue>
+        </UML:Class>
+      </UML:Namespace.ownedElement>
+    </UML:Package>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusPOS25" isSpecification="false" stereotype="CompaqPresarioX1010paulusPOS26" client="CompaqPresarioX1010paulusPOS7" supplier="CompaqPresarioX1010paulusPOS17"></UML:Dependency>
+    <UML:Generalization xmi.id="CompaqPresarioX1010paulusPOS250" isSpecification="false" child="CompaqPresarioX1010paulusPOS249" parent="CompaqPresarioX1010paulusPOS248"></UML:Generalization>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusPOS257" isSpecification="false" stereotype="CompaqPresarioX1010paulusPOS258" client="CompaqPresarioX1010paulusPOS181" supplier="CompaqPresarioX1010paulusPOS249"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusPOS258" isRoot="false" isLeaf="false" isAbstract="false" name="create" isSpecification="false"></UML:Stereotype>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusPOS26" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusPOS283" isSpecification="false" stereotype="CompaqPresarioX1010paulusPOS284 CompaqPresarioX1010paulusPOS285" client="CompaqPresarioX1010paulusPOS220" supplier="CompaqPresarioX1010paulusPOS209"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusPOS284" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusPOS285" isRoot="false" isLeaf="false" isAbstract="false" name="create" isSpecification="false"></UML:Stereotype>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusPOS286" isSpecification="false" stereotype="CompaqPresarioX1010paulusPOS287" client="CompaqPresarioX1010paulusPOS220" supplier="CompaqPresarioX1010paulusPOS7"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusPOS287" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusPOS288" isSpecification="false" stereotype="CompaqPresarioX1010paulusPOS289" client="CompaqPresarioX1010paulusPOS220" supplier="CompaqPresarioX1010paulusPOS139"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusPOS289" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Dependency xmi.id="CompaqPresarioX1010paulusPOS290" isSpecification="false" stereotype="CompaqPresarioX1010paulusPOS291" client="CompaqPresarioX1010paulusPOS220" supplier="CompaqPresarioX1010paulusPOS181"></UML:Dependency>
+    <UML:Stereotype xmi.id="CompaqPresarioX1010paulusPOS291" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Package xmi.id="CompaqPresarioX1010paulusPOS5" isRoot="false" isLeaf="false" isAbstract="false" name="" isSpecification="false"></UML:Package>
+    <UML:Primitive xmi.id="double" isRoot="false" isLeaf="true" isAbstract="false" name="double" isSpecification="false"></UML:Primitive>
+    <UML:Primitive xmi.id="float" isRoot="false" isLeaf="true" isAbstract="false" name="float" isSpecification="false"></UML:Primitive>
+    <UML:Primitive xmi.id="int" isRoot="false" isLeaf="true" isAbstract="false" name="int" isSpecification="false"></UML:Primitive>
+    <UML:Primitive xmi.id="long" isRoot="false" isLeaf="true" isAbstract="false" name="long" isSpecification="false"></UML:Primitive>
+    <UML:Package xmi.id="pylonpaulusPaulusPOS298" isRoot="false" isLeaf="false" isAbstract="false" name="java.lang" isSpecification="false">
+      <UML:Namespace.ownedElement>
+        <UML:Class xmi.id="pylonpaulusPaulusPOS299" isRoot="false" isLeaf="true" isAbstract="false" name="String" visibility="public" isSpecification="false" isActive="false"></UML:Class>
+      </UML:Namespace.ownedElement>
+    </UML:Package>
+    <UML:Dependency xmi.id="pylonpaulusPaulusPOS425" isSpecification="false" stereotype="pylonpaulusPaulusPOS426" client="pylonpaulusPaulusPOS417" supplier="pylonpaulusPaulusPOS299"></UML:Dependency>
+    <UML:Stereotype xmi.id="pylonpaulusPaulusPOS426" isRoot="false" isLeaf="false" isAbstract="false" name="access" isSpecification="false"></UML:Stereotype>
+    <UML:Primitive xmi.id="short" isRoot="false" isLeaf="true" isAbstract="false" name="short" isSpecification="false"></UML:Primitive>
+    <UML:Primitive xmi.id="void" isRoot="false" isLeaf="true" isAbstract="false" name="void" isSpecification="false"></UML:Primitive>
+  </XMI.content>
+</XMI>
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" size="1247,628" id="CompaqPresarioX1010paulusPOS0" metadata="nsuml-1.4" initialized="true" showWireOptions="1">
+  <children xsi:type="editmodel:ClassEditModel" location="50,50" size="294,462" id="CompaqPresarioX1010paulusPOS7" runTimeClassModel="CompaqPresarioX1010paulusPOS79;CompaqPresarioX1010paulusPOS46;CompaqPresarioX1010paulusPOS15;CompaqPresarioX1010paulusPOS76;CompaqPresarioX1010paulusPOS44;CompaqPresarioX1010paulusPOS12;CompaqPresarioX1010paulusPOS74;CompaqPresarioX1010paulusPOS10;CompaqPresarioX1010paulusPOS9;CompaqPresarioX1010paulusPOS136;CompaqPresarioX1010paulusPOS27;CompaqPresarioX1010paulusPOS58;CompaqPresarioX1010paulusPOS134;CompaqPresarioX1010paulusPOS22;CompaqPresarioX1010paulusPOS20;CompaqPresarioX1010paulusPOS117;CompaqPresarioX1010paulusPOS37;CompaqPresarioX1010paulusPOS114;CompaqPresarioX1010paulusPOS97;CompaqPresarioX1010paulusPOS34;CompaqPresarioX1010paulusPOS112;CompaqPresarioX1010paulusPOS32;CompaqPresarioX1010paulusPOS63;CompaqPresarioX1010paulusPOS94;CompaqPresarioX1010paulusPOS92;CompaqPresarioX1010paulusPOS60">
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,144">
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusPOS9"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusPOS37"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusPOS117"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusPOS27"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusPOS15"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusPOS79"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusPOS97"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusPOS63"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,288">
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS10"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS44"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS58"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS134"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS32"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS20"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS92"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS112"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS74"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS12"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS46"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS60"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS136"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS34"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS22"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS94"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS114"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS76"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="394,50" size="211,318" id="CompaqPresarioX1010paulusPOS139" runTimeClassModel="pylonpaulusPaulusPOS348;CompaqPresarioX1010paulusPOS150;CompaqPresarioX1010paulusPOS176;CompaqPresarioX1010paulusPOS147;CompaqPresarioX1010paulusPOS174;CompaqPresarioX1010paulusPOS144;CompaqPresarioX1010paulusPOS142;CompaqPresarioX1010paulusPOS141;CompaqPresarioX1010paulusPOS167;pylonpaulusPaulusPOS366;pylonpaulusPaulusPOS335;CompaqPresarioX1010paulusPOS164;pylonpaulusPaulusPOS333;CompaqPresarioX1010paulusPOS162;CompaqPresarioX1010paulusPOS157;pylonpaulusPaulusPOS324;CompaqPresarioX1010paulusPOS152">
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,64">
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusPOS147"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusPOS167"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusPOS157"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="CompaqPresarioX1010paulusPOS141"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="pylonpaulusPaulusPOS324"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="90,128">
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS174"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS162"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS150"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS142"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS176"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS164"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS152"/>
+      <children xsi:type="editmodel:MethodEditModel" id="CompaqPresarioX1010paulusPOS144"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pylonpaulusPaulusPOS335"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pylonpaulusPaulusPOS333"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pylonpaulusPaulusPOS348"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pylonpaulusPaulusPOS366"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="632,47" size="279,190" id="pylonpaulusPaulusPOS417" runTimeClassModel="pylonpaulusPaulusPOS427;pylonpaulusPaulusPOS422;pylonpaulusPaulusPOS419;pylonpaulusPaulusPOS420;pylonpaulusPaulusPOS442;pylonpaulusPaulusPOS440;pylonpaulusPaulusPOS435;pylonpaulusPaulusPOS432;pylonpaulusPaulusPOS430">
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:AttributeEditModel" id="pylonpaulusPaulusPOS435"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="pylonpaulusPaulusPOS427"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="pylonpaulusPaulusPOS419"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:MethodEditModel" id="pylonpaulusPaulusPOS440"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pylonpaulusPaulusPOS430"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pylonpaulusPaulusPOS420"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pylonpaulusPaulusPOS442"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pylonpaulusPaulusPOS432"/>
+      <children xsi:type="editmodel:MethodEditModel" id="pylonpaulusPaulusPOS422"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showInterfaceStereotype="true" showClassStereotype="true" showPackageStereotype="true"/>
+</editmodel:ClassDiagramEditModel>

@@ -1,0 +1,8 @@
+Paul Lyon
+Chapter 3, exercise 5
+1/29/03
+
+3.5) a) Not all browsers support for Java 2, Netscape 3, IE 3 do not support Java 2.
+     b) True
+     c) True
+     

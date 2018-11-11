@@ -1,0 +1,27 @@
+//Paul Lyon
+//Exercise 4.13
+//2/9/03
+
+import javax.swing.JOptionPane;
+
+public class exercise413 {
+    public static void main( String srgs[] ) {
+	String choice = null;
+	double sales = 0;
+
+	while(choice != 0) {
+	    choice = JOptionPane.showInputDialog(null, "What did you sell?\n Item\t Value\n1\t 239.99\n2\t 129.75\n3\t 99.95\n4\t 350.89\n\n0 to calculate", "Commision Calculator", JOptionPane.QUESTION_MESSAGE);
+
+	    if( Integer.parseInt(choice) == 1 )
+		sales += 239.99;
+	    if( Integer.parseInt(choice) == 2 )
+		sales += 129.75;
+	    if( Integer.parseInt(choice) == 3 )
+		sales += 99.95;
+	    if( Integer.parseInt(choice) == 4 )
+		sales += 350.89;
+	}
+
+	JOptionPane.showMessageDialog(null, "Net pay is $" + DecimalFormat((sales * 1.09), ".##"), "Net Pay", JOptionPane.INFORMATION_MESSAGE);
+    }
+} 

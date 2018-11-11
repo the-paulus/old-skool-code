@@ -1,0 +1,21 @@
+4.9a) ; after ) in if statement and " outside of )
+4.9b) cant do "int x = 1, total;"
+4.9c) while can not be capitalized
+4.9d) no closing braces.
+
+4.19)
+****
+++++
+****
+++++
+****
+++++
+****
+++++
+****
+++++
+
+4.21a) 	****
+	$$$$
+4.21b) 	####
+	$$$$	

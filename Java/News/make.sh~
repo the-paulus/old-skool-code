@@ -1,0 +1,8 @@
+#!/bin/bash
+javac NewsDB.java
+javac NewsDriver.java
+javac NewsGUI.java
+javac NewsItem.java
+#NewsVector.java
+
+java NewsDriver

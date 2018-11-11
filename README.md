@@ -18,6 +18,9 @@ Most of the code was written during the Windows98 era. It's still possible to in
 - GtkLogicBomb
 - XWMTest - Scratch project.
 
+### C++
+- brestore - 
+
 ### J++
 - appform - Scratch project.
 - BackColor - Scratch project that changes the background color of the window.

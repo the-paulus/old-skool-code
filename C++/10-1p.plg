@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 10-1p - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPA0A4.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/10-1p.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"M:\cpp\10-1p.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPA0A4.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPA0A5.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/10-1p.pdb" /debug /machine:I386 /out:"Debug/10-1p.exe" /pdbtype:sept 
+".\Debug\10-1p.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPA0A5.TMP"
+<h3>Output Window</h3>
+Compiling...
+10-1p.cpp
+M:\cpp\10-1p.cpp(16) : error C2440: '=' : cannot convert from 'char' to 'char [10]'
+        There are no conversions to array types, although there are conversions to references or pointers to arrays
+M:\cpp\10-1p.cpp(31) : error C2109: subscript requires array or pointer type
+M:\cpp\10-1p.cpp(31) : error C2106: '=' : left operand must be l-value
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+10-1p.exe - 3 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

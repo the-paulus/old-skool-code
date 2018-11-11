@@ -1,0 +1,23 @@
+//Paul Lyon
+//Exercise 13.6
+//e13-6.cpp
+
+#include<iostream.h>
+#include<stdlib.h>
+#include<fstream.h>
+#define PRINT_IT ofstream prn("PRN")
+PRINT_IT;
+
+int main()
+{
+char feet_in_a_mile[]="5280";
+char number_of_miles[]="3";
+int feet_per_mile, miles;
+
+
+feet_per_mile = atoi(feet_in_a_mile);
+miles = atoi(number_of_miles);
+
+ cout << "\nThere are " << feet_per_mile * miles << " feet in " << miles << " miles.\n";
+return 0;
+}

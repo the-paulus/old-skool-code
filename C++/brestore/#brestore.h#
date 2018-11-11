@@ -1,0 +1,37 @@
+#ifndef BRESTORE_H
+#define BRESTORE_H
+
+//Included files
+#include <qstring.h>
+#include <qpopupmenu.h>
+#include <qmainwindow.h>
+#include <qapp.h>
+#include <qstatusbar.h>
+#include <qmsgbox.h>
+#include <qfiledialog.h>
+
+#include "brestoreview.h"
+#invlude "brestoredoc.h"
+
+class Brestore : public QMainWindow
+{
+   Q_OBJECT
+     
+ public:
+   Brestore();
+   ~Brestore();
+   void initStatusBar();
+   void initDoc();
+   void initView();
+   
+   bool queryExit();
+   
+ public slots:
+   void slotFileAdd();
+   void slotFileRemove();
+   void slotFileProperties();
+   void slotFileRename();
+   
+ private:
+   BrestoreView *view;
+   

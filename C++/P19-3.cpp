@@ -1,0 +1,164 @@
+//Paul Lyon
+//Project 19-4
+//P19-3.cpp
+
+#include<iostream.h>
+#include<fstream.h>
+#include<stdlib.h>
+#define PRINT_IT ofstream prn("PRN")
+PRINT_IT;
+
+void quicksort(int input_array[], int top, int bottom);
+int partition(int input_array[], int top, int bottom);
+void display_array(int input_array[], int input_size);
+void bin_search(int input_array[], int low1, int high, int look);
+
+int DatNum[50];
+ofstream debug;
+ifstream infile;
+int input_array[50];
+int LookFor;
+int look;
+
+int main()
+{
+	int ii=0;
+	int s = 0;
+	    
+	infile.open("NUMBERS.DAT.TXT",ios::in);
+	debug.open("debug.log",ios::out);
+
+	if (infile)  
+	{           
+		do
+		{
+			infile >> DatNum[ii];
+			debug << '\n' <<ii+1 << ": " << DatNum[ii];
+			ii++;
+		}while(!infile.eof());
+		
+		for(int j=0; j<25; j++)
+		{
+			cout << '\n' << DatNum[j];
+			prn << '\n' << DatNum[j];
+		}
+
+		quicksort(DatNum, 0, 50);
+
+		
+		cout << "\n\n";
+		prn << "\n\n";
+	}
+		for(int i=0;ii<50;ii++)
+		{
+			cout << ' ' << input_array[ii];
+			prn << ' ' << input_array[ii];
+			debug << "\n\n" << ii+1 << ": " << input_array[ii];
+		}
+	display_array(DatNum, 50);
+
+	cout << "\nEnter a number to look for: ";
+	prn << "\nEnter a number to look for: ";
+	cin >> look;
+	prn << look;
+
+	bin_search(DatNum,0,50,look);
+
+	infile.close();
+	debug.close();
+
+	return 0;
+}
+
+void quicksort(int input_array[], int top, int bottom)
+{
+  int middle;
+  int i=0;
+  if (top < bottom)
+   {
+    middle = partition(input_array, top, bottom);
+    quicksort(input_array, top, middle);	// sort top partition
+    quicksort(input_array, middle + 1, bottom); // sort bottom partition
+   }
+
+}
+
+// partitions input_array, returning middle index. Used by procedure quicksort.
+int partition(int input_array[], int top, int bottom)
+{
+  int x = input_array[top];
+  int i = top - 1;
+  int j = bottom + 1;
+  int temp;
+
+  do
+   {
+    // move j towards top to the next element less than or equal to x.
+    do
+     {
+      j--;
+     } while(x > input_array[j]);
+
+    // move j towards bottom to the next element greater than or equal to x.
+    do
+     {
+      i++;
+     } while(x < input_array[i]);
+
+    if (i < j)
+     {
+      // switch elements at positions i and j.
+      temp = input_array[i];
+      input_array[i] = input_array[j];
+      input_array[j] = temp;
+     }
+   } while(i < j);	// loop ends when i and j have met in the middle.
+
+   return j;	// j and above represents top partition, below j is bottom partition.
+}
+
+void display_array(int input_array[], int input_size)
+{
+  int i;
+  
+  for (i = 0; i < input_size; i++)
+   {
+    cout << input_array[i] << ' ';
+	prn << input_array[i] << ' ';
+   }
+  cout << "\n\n";
+  prn << "\n\n";
+}
+
+void bin_search(int input_array[], int low, int high, int look)
+{
+	int search_pos;
+    int compare_count = 1;
+
+    search_pos = (low+high)/2;
+
+    while((input_array[search_pos] != look) && (low <= high))
+	{
+		compare_count++;
+	    if((int)input_array[search_pos] > look)
+		{
+		    high = search_pos-1;
+		}
+	    else
+		{
+		    low = search_pos+1;
+		}
+	    search_pos = (low+high)/2;
+	}
+
+    if(low<=high)
+	{
+	    cout << "\nFound the number " << look << " .";
+		prn << "\nFound the number " << look << " .";
+	}
+    else
+	{
+	    cout << "\nI couldn't find " << look << ". :(";
+		prn << "\nI couldn't find " << look << ". :(";
+	}
+}
